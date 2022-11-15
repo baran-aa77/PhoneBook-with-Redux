@@ -2,7 +2,7 @@ import {createSlice} from "@reduxjs/toolkit";
 const initialState=
 [
     {id:1,name:'Ali',phoneNumber:'09126788578',favorite: 'unFavoriteContact'},
-    {id:2,name:'Mohamad',phoneNumber:'09195696478',favorite: 'FavoriteContact'},
+    {id:2,name:'Mohamad',phoneNumber:'09195696478',favorite: 'favoriteContact'},
     {id:3,name:'Baran',phoneNumber:'09109744598',favorite: 'unFavoriteContact'},
     ]
 
