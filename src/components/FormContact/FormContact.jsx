@@ -17,7 +17,6 @@ const FormContact=()=>{
 
     useEffect(() => {
         const a = contacts.filter(item=>item.id === Number(Id))[0]
-        console.log(a)
         if (a) {
             setformdata(a);
             setstate('update')

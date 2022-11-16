@@ -9,10 +9,10 @@ const CardContact=({Name,Phonenumber,favorite,handleShowMessage,Id})=>{
     return(
 
 
-        <Grid xs={11} md={10} container sx={{justifyContent:'space-around',border:'1px solid #478833',mx:'auto',mt:'10px',bgcolor:'background',boxShadow:4}} >
+        <Grid item xs={11} md={10} container sx={{justifyContent:'space-around',border:'1px solid #478833',mx:'auto',mt:'10px',bgcolor:'background',boxShadow:4}} >
             <Grid xs={2} item ><Link to={`/ShowContact/${Id}`}><img width='100px' src={`https://joeschmoe.io/api/v1/${Id}`} /></Link></Grid>
 <Grid xs={10} container item sx={{justifyContent:'space-around'}}>
-    <Grid xs={5} md={10} container item sx={{flexDirection:'column',textAlign:'center',my:'auto'}}>
+    <Grid item xs={5} md={10} container item sx={{flexDirection:'column',textAlign:'center',my:'auto'}}>
         <Grid item>{Name}</Grid>
         <Grid item>{Phonenumber}</Grid>
         <Grid item >{favorite}</Grid>

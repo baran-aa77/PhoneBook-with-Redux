@@ -14,7 +14,7 @@ useEffect(()=>{
 },[])
     return(
 
-        <Grid xs={12} container>
+        <Grid xs={12} container item>
             <Grid>
                 <Link to={'/'}>
                     <Button >
